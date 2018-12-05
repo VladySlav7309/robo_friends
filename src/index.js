@@ -6,16 +6,13 @@ import * as serviceWorker from './serviceWorker';
 import 'tachyons';
 
 // Components
-import CardList from './CardList';
+import App from './containers/App.jsx';
 
 // Css
 import './index.css';
 
-// static
-import { robots } from './robots';
-
 ReactDOM.render(
-    <CardList robots={ robots }/>
+    <App />
 , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
